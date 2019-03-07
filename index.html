@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
   <title>Agency - Start Bootstrap Theme</title>
 
@@ -29,6 +34,8 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
+  <link href="css/news.css" rel="stylesheet">
+  <script src="js/news.js"></script>
   <!-- Custom side-bar for this template -->
   <link href="css/side-bar.css" rel="stylesheet">
 
@@ -93,6 +100,8 @@
       </div>
     </div>
   </section>
+
+
 
     <!-- What you will learn  -->
   <section>
@@ -214,6 +223,83 @@
 
   </section>
 
+  <!-- Onsite course packet -->
+
+  <section>
+     <div class="row mx-5">
+        <div class="col-6">
+          <img class="d-block w-100" src="img/header-bg.jpg">
+        </div>
+        <div>
+          <h4>Onsite Course Packet</h4>
+                          <form action="send_course_packet" method="post" class="course_packet_form">
+                
+                    <input type="text" name="full_name" placeholder="First and Last Name" class="packet_name form-control">
+                    <input type="email" name="email" placeholder="Email Address" class="packet_email form-control">
+                    <br>                
+                    <input type="submit" value="Get Course Packet" style="background-color: gray;">
+                </form>
+        </div>
+      </div>
+      </div>
+  </section>
+
+
+  <!-- All time pacifics -->
+  
+  <section>
+  
+<div class="container mt-3">
+  <h2>Accordion Example</h2>
+  <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+  <div id="accordion">
+    <div class="row">
+    <div class="col-lg-6">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          Collapsible Group Item #1
+        </a>
+      </div>
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        Collapsible Group Item #2
+      </a>
+      </div>
+            <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+          Collapsible Group Item #3
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      
+          <div  class="collapse show" id="collapseOne" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+    </div>
+    <div >
+      
+    </div>
+  </div>
+</div>
+    
+    
+  </section>
 
     
   <!-- Services -->
@@ -1060,13 +1146,19 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
 
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  
   <!-- Contact form JavaScript -->
   <script src="js/jqBootstrapValidation.js"></script>
   <script src="js/contact_me.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+  <script src="js/all_time.js"></script>
 
 
 
