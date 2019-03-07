@@ -1,0 +1,422 @@
+#life_on_campus_cta {
+      float: right;
+     float: left;
+     background-size: cover
+ }
+
+ .page_data_carrier .page_side_bar_content_block .icon_blocks.top .carrier_2 .icon_carrier.uses_sprite,
+.page_data_carrier .page_side_bar_content_block .icon_blocks.middle .carrier_2 .icon_carrier.uses_sprite,
+.page_data_carrier .page_side_bar_content_block .icon_blocks.life_on_campus_icon_blk .carrier_2 .icon_carrier.uses_sprite,
+.page_data_carrier .page_side_bar_content_block .icon_blocks.process_blk .carrier_2 .icon_carrier.uses_sprite,
+.page_data_carrier .page_side_bar_content_block .icon_blocks.top .carrier_5 .icon_carrier.uses_sprite,
+.page_data_carrier .page_side_bar_content_block .icon_blocks.middle .carrier_5 .icon_carrier.uses_sprite,
+.page_data_carrier .page_side_bar_content_block .icon_blocks.life_on_campus_icon_blk .carrier_5 .icon_carrier.uses_sprite,
+.page_data_carrier .page_side_bar_content_block .icon_blocks.process_blk .carrier_5 .icon_carrier.uses_sprite {
+    background-color: transparent;
+
+}
+
+.page_data_carrier .page_side_bar_content_block .icon_blocks.life_on_campus_icon_blk {
+     padding: 53px 121px
+ }
+ 
+@media screen and (max-width: 1220px) {
+    .page_data_carrier .page_side_bar_content_block .icon_blocks.life_on_campus_icon_blk {
+         padding: 53px 101px
+     }
+
+ 
+ @media screen and (max-width: 1024px) {
+     .page_data_carrier .page_side_bar_content_block .icon_blocks.life_on_campus_icon_blk {
+         padding: 53px 80px
+     }
+
+ 
+ @media screen and (max-width: 991px) {
+     .page_data_carrier .page_side_bar_content_block .icon_blocks.life_on_campus_icon_blk {
+          padding: 32px 78px
+     }
+
+ 
+ @media screen and (max-width: 721px) {
+     .page_data_carrier .page_side_bar_content_block .icon_blocks.life_on_campus_icon_blk {
+          padding: 10px 0px
+     }
+
+ 
+ @media screen and (max-width: 640px) {
+     .page_data_carrier .page_side_bar_content_block .icon_blocks.life_on_campus_icon_blk {
+         padding: 40px 20px
+     }
+ }
+ 
+ .page_data_carrier .page_side_bar_content_block .icon_blocks.life_on_campus_icon_blk .carrier_2:first-child {
+     padding: 28px 27px 23px 0px
+ }
+ 
+ @media screen and (max-width: 721px) {
+     .page_data_carrier .page_side_bar_content_block .icon_blocks.life_on_campus_icon_blk .carrier_2:first-child {
+         padding: 28px 20px 23px 20px
+     }
+
+ 
+ @media screen and (max-width: 640px) {
+     .page_data_carrier .page_side_bar_content_block .icon_blocks.life_on_campus_icon_blk .carrier_2:first-child {
+         padding: 0px
+     }
+ }
+ 
+ .page_data_carrier .page_side_bar_content_block .icon_blocks.life_on_campus_icon_blk .carrier_2 p {
+     width: 100%
+ }
+ 
+ .page_data_carrier .page_side_bar_content_block .icon_blocks.life_on_campus_icon_blk .carrier_2 .icon_carrier.uses_sprite {
+     background-position: -1115px -7px
+}
+
+.page_data_carrier .page_side_bar_content_block .icon_blocks.life_on_campus_icon_blk .carrier_2:last-child .icon_carrier.uses_sprite {
+    background-position: -2360px -12px
+}
+
+
+#life-on-campus #life_on_campus_accordion_container {
+    margin-bottom: 83px;
+    padding: 80px 0px 0px
+}
+
+@media screen and (max-width: 1024px) {
+    #life-on-campus #life_on_campus_accordion_container {
+        padding: 56px 0px 0px
+    }
+
+
+@media screen and (max-width: 991px) {
+    #life-on-campus #life_on_campus_accordion_container {
+        padding: 38px 0px 0px
+    }
+}
+
+#life-on-campus #life_on_campus_accordion_container .container {
+    width: 100%
+}
+ 
+ @media screen and (max-width: 1100px) {
+     #life-on-campus #life_on_campus_accordion_container .container {
+         padding: 0px 80px
+     }
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container {
+     text-align: left
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list {
+     display: inline-block;
+    list-style-type: none;
+
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item {
+     margin-bottom: 25px;
+     text-align: left;
+
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.has_main_icon {
+     cursor: default
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item .glyphicon-menu-right {
+     opacity: 0;
+     float: right
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.active>p {
+     opacity: 1;
+     font: 18px/22px ProximaNova-Bold, tahoma, verdana, arial, sans-serif
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.active .small_icon {
+     background: #464659
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.active .main_icon {
+     background-size: 100%
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.active .glyphicon-menu-right {
+     opacity: 1;
+     color: #429EC7
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item:hover {
+     -webkit-transition: all 1s ease-in;
+     -moz-transition: all 1s ease-in;
+
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item:hover>p {
+     opacity: 1;
+     font: 18px/22px ProximaNova-Bold, tahoma, verdana, arial, sans-serif
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item:hover .small_icon {
+     background: #464659
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item:hover .glyphicon-menu-right {
+     opacity: 1
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item>p {
+     display: inline-block;
+     vertical-align: top;
+
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item .time_text {
+     position: absolute;
+     left: -45px;
+
+ }
+ 	#life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item .time_text.twelve_am {
+  left: -51px
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item .life_on_campus_right_container {
+     width: 600px;
+     display: none;
+
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item .life_on_campus_right_container .life_on_campus_image_container {
+     height: 250px;
+     width: 100%
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item .life_on_campus_right_container .life_on_campus_image_container img {
+     width: 100%;
+     height: 100%;
+
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item .life_on_campus_right_container .content {
+     text-align: left;
+     padding: 40px
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item .life_on_campus_right_container .content .main_icon {
+     background: #454756;
+     height: 80px;
+
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item::before {
+     content: '';
+     height: 32px;
+
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item:last-child {
+     margin-bottom: 0px
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item:last-child::before {
+     display: none
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list .main_icon {
+     z-index: 99;
+     height: 50px;
+
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list .main_icon.morning_icon {
+
+ }
+ 
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list .small_icon {
+     z-index: 99;
+     height: 20px;
+
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_right_container {
+     width: 600px;
+     margin-top: 50px;
+
+ 
+ @media screen and (max-width: 1366px) {
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_right_container {
+          width: 50%
+      }
+
+  
+  @media screen and (min-width: 1678px) {
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_right_container {
+         width: 715px;
+         margin-top: 50px;
+
+ }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_right_container .life_on_campus_image_container {
+     height: 250px;
+      width: 100%
+  }
+  
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_right_container .life_on_campus_image_container img {
+      width: 100%;
+      height: 100%;
+
+  }
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_right_container .content {
+     text-align: left;
+     padding: 40px;
+
+ 	}
+ 
+ #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_right_container .content .main_icon {
+     background: #454756;
+     height: 80px;
+	}
+ 
+ @media screen and (max-width: 721px) {
+     #life-on-campus #life_on_campus_accordion_container {
+         padding: 0px 20px;
+         margin-bottom: 0px;
+         padding-top: 16px
+     }
+     #life-on-campus #life_on_campus_accordion_container .container {
+         padding: 0px
+     }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li {
+         margin-bottom: 5px;
+         padding: 15px 18px
+     }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.active .life_on_campus_right_container .life_on_campus_image_container {
+         height: 160px
+      }
+
+          width: 100% !important
+      }
+     #life-on-campus #life_on_campus_accordion_container .container {
+         width: 100% !important
+     }
+
+ 
+ @media screen and (max-width: 1288px) {
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_right_container {
+         width: 46%
+     }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_right_container .life_on_campus_image_container {
+         height: auto
+     }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_right_container .life_on_campus_image_container img {
+         object-fit: contain;
+         width: 100%;
+
+ 
+ @media screen and (max-width: 1201px) {
+     #life-on-campus #life_on_campus_accordion_container .container {
+         width: 100%
+     }
+
+         padding-bottom: 0px
+     }
+     #life-on-campus #life_on_campus_accordion_container {
+         margin-bottom: 0px
+     }
+     #life-on-campus #life_on_campus_accordion_container .container {
+         width: 100%
+     }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_right_container {
+         display: none !important
+     }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list {
+          width: 100%;
+          padding-left: 0px
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.has_main_icon {
+          background: transparent !important;
+          padding: 0px
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.has_main_icon .time_text {
+          position: relative;
+         left: auto;
+
+          color: #B7B7B7
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.has_main_icon .time_text.twelve_am {
+          left: auto
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li>p {
+          color: #333;
+          opacity: 1 !important;
+          font: 18px/22px ProximaNova-Normal, tahoma, verdana, arial, sans-serif !important
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item {
+          margin-bottom: 20px;
+          background: #fff;
+          padding: 18px 20px
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item:nth-last-child(2) {
+          margin-bottom: 0px
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.has_main_icon {
+          padding-bottom: 10px !important;
+          margin-bottom: 0px !important
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item::before {
+          display: none
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item .main_icon {
+          display: none
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.active .glyphicon-menu-right {
+          -ms-transform: rotate(270deg);
+          -webkit-transform: rotate(270deg);
+
+          transform: rotate(270deg)
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.active .life_on_campus_right_container {
+          visibility: visible;
+          padding: 0px;
+          margin-top: 16px
+     }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.active .life_on_campus_right_container .life_on_campus_image_container {
+          height: auto;
+          margin-bottom: 15px
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.active .life_on_campus_right_container .life_on_campus_image_container img {
+          object-fit: cover
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.active .life_on_campus_right_container p {
+          margin: 25px 0px 0px
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.active .life_on_campus_right_container p:last-child {
+          margin-bottom: 8px
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.active .life_on_campus_right_container .content {
+          padding-bottom: 24px;
+          padding: 0px
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item.active .life_on_campus_right_container .content h4 {
+         display: none
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item .glyphicon-menu-right {
+          color: #329CD0;
+          opacity: 1;
+
+          transform: rotate(90deg)
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item .life_on_campus_right_container {
+          display: none;
+          left: auto;
+
+          padding: 26px
+      }
+     #life-on-campus #life_on_campus_accordion_container .container #life_on_campus_list li.life_on_campus_item .small_icon {
+          display: none
+      }
