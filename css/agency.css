@@ -25,11 +25,6 @@ a:hover {
   color: #fed136 !important;
 }
 
-.wwwl #the_fa_fa {
-  text-align: center;
-  width:100px;
-  height:100px;
-}
 
 h1,
 h2,
@@ -58,6 +53,23 @@ section h3.section-subheading {
   margin-bottom: 75px;
   text-transform: none;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/*What you will learn - Boxes*/
+
+ .text_box {
+  padding-left: auto;
+  padding-right: 40px;
+  text-align: justify;
+  font-size: 14px;
+  float: left;
+  position: left;
+  margin-bottom: 20px;
+}
+
+#the_fa_fa {
+  width:100px;
+  height:100px;
 }
 
 @media (min-width: 768px) {
@@ -103,6 +115,10 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+.image_portofolio {
+  width: 100%;
 }
 
 #mainNav {
